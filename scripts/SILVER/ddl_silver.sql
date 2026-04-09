@@ -1,3 +1,24 @@
+/*
+===================================================
+Stored Procedure: Load Silver Layer (Bronze -> Silver)
+Script Purpose:
+	This stored procedure loads data into the 'silver' schema from 'bronze' data schema.
+	It performs the following actions:
+	- Data Cleaning
+    - Data Standardization
+	- Data Normalization
+	- Derived Columns
+	- Dta Enrichments
+
+Parameters:
+	None.
+	This stored procedure does not accept any parameters or return any values
+
+Usage Example:
+	EXEC SILVER.load_silver;
+===================================================
+*/
+
 CREATE OR ALTER PROCEDURE SILVER.load_silver AS
 BEGIN
 	BEGIN TRY
