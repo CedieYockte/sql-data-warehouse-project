@@ -1,3 +1,4 @@
+TRUNCATE TABLE SILVER.crm_sales_details;
 INSERT INTO SILVER.crm_sales_details (
 	sls_ord_num,
 	sls_prd_key,
