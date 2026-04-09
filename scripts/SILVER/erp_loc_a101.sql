@@ -1,3 +1,4 @@
+TRUNCATE TABLE SILVER.erp_loc_a101;
 INSERT INTO SILVER.erp_loc_a101 (
 	cid,
 	cntry
