@@ -1,3 +1,4 @@
+TRUNCATE TABLE SILVER.erp_cust_az12;
 INSERT INTO SILVER.erp_cust_az12 (
 	cid,
 	bdate,
