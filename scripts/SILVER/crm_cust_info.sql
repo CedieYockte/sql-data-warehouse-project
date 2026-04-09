@@ -1,3 +1,4 @@
+TRUNCATE TABLE SILVER.crm_cust_info;
 INSERT INTO SILVER.crm_cust_info(
 	cst_id,
 	cst_key,
