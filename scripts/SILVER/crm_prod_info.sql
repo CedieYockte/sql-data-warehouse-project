@@ -1,4 +1,4 @@
---- TRANSFORMATION TO SILVER.crm_prod_info
+TRUNCATE TABLE SILVER.crm_prod_info;
 INSERT INTO SILVER.crm_prod_info
 (
 	prd_id,
